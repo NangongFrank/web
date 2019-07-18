@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>websocket</title>
+</head>
+<body>
+	<script>
+		let ws = new WebSocket('wss://www.ngfrankgl.cn:8282')
+		ws.onopen = () => {
+			ws.send('link start')
+		}
+		ws.onmessage = ({data}) => {
+			console.log(data)
+		}
+		ws.onclose()
+	</script>
+</body>
+</html>
