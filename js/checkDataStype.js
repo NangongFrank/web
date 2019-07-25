@@ -16,5 +16,5 @@ function typeOf(o) {
 			'[object Date]': 'date',
 			'[object Error]': 'error'
 		}
-		return _type[typeof o] || _type[_toString.call(o)] || (o ? 'object' : 'null')
+	return _type[typeof o] || _type[_toString.call(o)] || (o ? 'object' : 'null')
 }
