@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>流式布局 - 瀑布流</title>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		.pool {
+			column-count: 2;
+			column-gap: 8px;
+		}
+		.pool .box {
+			break-inside: avoid;		}
+		img {
+			width: 100%;
+		}
+		.pool .box1 {
+			height: 300px;
+			background-color: #745;
+		}
+		.pool .box2 {
+			height: 200px;
+			background-color: #975;
+		}
+		.pool .box3 {
+			height: 400px;
+			background-color: #f79;
+		}
+		.pool .box4 {
+			height: 400px;
+			background-color: #9ff;
+		}
+		.pool .box5 {
+			height: 200px;
+			background-color: #899;
+		}
+	</style>
+</head>
+<body>
+	<div class="pool">
+		<div class="box box1">
+			<!-- <img src="https://source.ngfrankgl.cn/imgs/shapes.jpg" alt=""> -->
+		</div>
+		<div class="box box2">
+			<!-- <img src="https://source.ngfrankgl.cn/imgs/shapes.jpg" alt=""> -->
+		</div>
+		<div class="box box3">
+			<!-- <img src="https://source.ngfrankgl.cn/imgs/shapes.jpg" alt=""> -->
+			<!-- <hr> -->
+			<!-- <img src="https://source.ngfrankgl.cn/imgs/shapes.jpg" alt=""> -->
+		</div>
+		<div class="box box4">
+			<!-- <img src="https://source.ngfrankgl.cn/imgs/shapes.jpg" alt=""> -->
+		</div>
+		<div class="box box5">
+			<!-- <img src="https://source.ngfrankgl.cn/imgs/shapes.jpg" alt=""> -->
+		</div>
+	</div>
+</body>
+</html>

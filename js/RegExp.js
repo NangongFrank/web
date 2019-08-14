@@ -21,5 +21,7 @@ let b = s.replace(/(java)(script)/, "$2$1")
  * $' 位于匹配子字符串右侧的文本
  * $$ 表示$符号
  */
-let c = s.replace(/ja.+/, "$&$&")
+// let c = s.replace(/ja.+/, "$&$&")
+// console.log(c)
+let c = s.replace(/(java)?/, '$1')
 console.log(c)
