@@ -51,3 +51,19 @@ function len2() {
 		else b += 2 
 	}
 }*/
+
+
+/**
+ * String - function - ES6
+ * includes
+ * startsWith
+ * endsWith
+ */
+
+let url1 = 'http://www.baidu.com',
+	url2 = 'https://www.baidu.com'
+
+let bl = url1.includes('http://')
+bl = url1.startsWith('http://')
+bl = url1.endsWith('.com')
+console.log(bl)
