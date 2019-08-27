@@ -1,0 +1,9 @@
+{
+  "name": "thunkify",
+  "version": "1.0.0",
+  "main": "generator.js",
+  "license": "MIT",
+  "dependencies": {
+    "thunkify": "^2.1.2"
+  }
+}
