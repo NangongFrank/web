@@ -2,7 +2,7 @@
 * @Author: frank_zhao
 * @Date:   2019-08-28 09:36:18
 * @Last Modified by:   zhao mac
-* @Last Modified time: 2019-08-28 09:51:26
+* @Last Modified time: 2019-08-28 09:52:30
 */
 let fs = require('fs'),
 	path = require('path'),
@@ -30,8 +30,8 @@ async function testFile(filepath) {  // 使用`try...catch`捕获异常
 	}
 }
 
-testFile().then(buf => {
-	console.log(buf.toString())
-}).catch(err => {
-	console.log(err, 'err')
-})
+// testFile().then(buf => {
+// 	console.log(buf.toString())
+// }).catch(err => {
+// 	console.log(err, 'err')
+// })
